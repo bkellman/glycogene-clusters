@@ -6,8 +6,10 @@
 -  uniprot-cazy-bacteria.tsv.gz - a large tsv with many cross references
 
 ### CAZy
-- CAZy_DB_Glycoside-Hydrolases_19-03-2020.csv - database of glycan catabolic enzymes
-- CAZy_DB_GlycosylTransferases_20-03-2020.csv - database of glycan anabolic enzymes
+- CAZy_DB_\*.csv - database of glycogenes
 
 ### to do
-- annotate genes with nucleotide sequences (ncbi query)
+- annotate genes with nucleotide sequences (genbank -> enz/embl)
+- merge/query all genbank IDs from cazy
+- construct EC heirarchy
+- make heirarchy computable
